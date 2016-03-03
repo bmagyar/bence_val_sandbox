@@ -1,0 +1,9 @@
+<library path="lib/libbence_controller">
+
+  <class name="bence_val_sandbox/BenceController" type="bence_val_sandbox::BenceController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      Test test test
+    </description>
+  </class>
+
+</library>

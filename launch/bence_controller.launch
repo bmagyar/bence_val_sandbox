@@ -1,0 +1,9 @@
+<launch>
+  <rosparam command="load" file="$(find bence_val_sandbox)/config/bence_controller.yaml" />
+  
+  <node name="bence_controllers_spawner"
+        pkg="controller_manager" type="spawner" output="screen"
+        args="--timeout 120
+              bence_controller" />
+
+</launch>

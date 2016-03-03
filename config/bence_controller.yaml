@@ -1,0 +1,2 @@
+bence_controller:
+  type: "bence_val_sandbox/BenceController"
